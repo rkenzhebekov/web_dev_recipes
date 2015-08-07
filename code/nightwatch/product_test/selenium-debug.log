@@ -1,0 +1,61 @@
+16:54:09.677 INFO - Launching a standalone server
+16:54:09.904 INFO - Java: Apple Inc. 20.65-b04-462
+16:54:09.905 INFO - OS: Mac OS X 10.9.5 x86_64
+16:54:09.917 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+16:54:10.164 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+16:54:10.329 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:54:10.330 INFO - Version Jetty/5.1.x
+16:54:10.330 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:54:10.331 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:54:10.331 INFO - Started HttpContext[/,/]
+16:54:10.358 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@4cc39a20
+16:54:10.358 INFO - Started HttpContext[/wd,/wd]
+16:54:10.362 INFO - Started SocketListener on 0.0.0.0:4444
+16:54:10.362 INFO - Started org.openqa.jetty.jetty.Server@7a982589
+16:54:10.671 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Qedserver}]])
+16:54:10.681 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Qedserver}]
+16:54:14.031 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Qedserver}]]
+16:54:14.044 INFO - Executing: [get: http://localhost:8080])
+16:54:14.151 INFO - Done: [get: http://localhost:8080]
+16:54:14.160 INFO - Executing: [find elements: By.cssSelector: body])
+16:54:14.253 INFO - Done: [find elements: By.cssSelector: body]
+16:54:14.257 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: body]])
+16:54:14.290 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: body]]
+16:54:14.295 INFO - Executing: [find element: By.cssSelector: #main ul li a:first-child])
+16:54:14.347 INFO - Done: [find element: By.cssSelector: #main ul li a:first-child]
+16:54:14.351 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #main ul li a:first-child]])
+16:54:14.542 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #main ul li a:first-child]]
+16:54:15.548 INFO - Executing: [find element: By.cssSelector: #product_name])
+16:54:15.563 INFO - Done: [find element: By.cssSelector: #product_name]
+16:54:15.567 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #product_name], [W, i, d, g, e, t]])
+16:54:15.632 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #product_name], [W, i, d, g, e, t]]
+16:54:15.635 INFO - Executing: [find element: By.cssSelector: #product_price])
+16:54:15.673 INFO - Done: [find element: By.cssSelector: #product_price]
+16:54:15.677 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #product_price], [2, 5]])
+16:54:15.747 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #product_price], [2, 5]]
+16:54:15.750 INFO - Executing: [find element: By.cssSelector: #product_description])
+16:54:15.791 INFO - Done: [find element: By.cssSelector: #product_description]
+16:54:15.796 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #product_description], [A,  , s, i, m, p, l, e,  , w, i, d, g, e, t]])
+16:54:15.887 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #product_description], [A,  , s, i, m, p, l, e,  , w, i, d, g, e, t]]
+16:54:15.892 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+16:54:15.968 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+16:54:15.971 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: input[type=submit]]])
+16:54:16.166 INFO - Done: [click: 5 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: input[type=submit]]]
+16:54:17.171 INFO - Executing: [find element: By.cssSelector: #notice])
+16:54:17.189 INFO - Done: [find element: By.cssSelector: #notice]
+16:54:17.194 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #notice]])
+16:54:17.268 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #notice]]
+16:54:17.273 INFO - Executing: [find element: By.cssSelector: table tr:first-child td:first-child])
+16:54:17.312 INFO - Done: [find element: By.cssSelector: table tr:first-child td:first-child]
+16:54:17.314 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: table tr:first-child td:first-child]])
+16:54:17.358 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: table tr:first-child td:first-child]]
+16:54:17.362 INFO - Executing: [find element: By.cssSelector: table tr:first-child input[value=Delete]])
+16:54:17.402 INFO - Done: [find element: By.cssSelector: table tr:first-child input[value=Delete]]
+16:54:17.406 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: table tr:first-child input[value=Delete]]])
+16:54:17.564 INFO - Done: [click: 8 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: table tr:first-child input[value=Delete]]]
+16:54:18.570 INFO - Executing: [find element: By.cssSelector: #notice])
+16:54:18.577 INFO - Done: [find element: By.cssSelector: #notice]
+16:54:18.580 INFO - Executing: [get text: 9 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #notice]])
+16:54:18.622 INFO - Done: [get text: 9 [[FirefoxDriver: firefox on MAC (46869f84-4806-f049-9f50-b655552a9dc8)] -> css selector: #notice]]
+16:54:18.625 INFO - Executing: [delete session: dd741d9c-c54c-4e30-a0c0-cb56ffd3937b])
+16:54:18.728 INFO - Done: [delete session: dd741d9c-c54c-4e30-a0c0-cb56ffd3937b]
